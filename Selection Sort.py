@@ -15,3 +15,5 @@ arr = list(map(int, user_input.split()))
 print("Original array:", arr)
 selection_sort(arr)
 print("Sorted array:", arr)
+
+#Time O(n2) Space O(1)
