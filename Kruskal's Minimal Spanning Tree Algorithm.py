@@ -62,3 +62,5 @@ for u, v, weight in mst:
     print(f"{reverse_mapping[u]} -- {reverse_mapping[v]} == {weight}")
 
 print(f"Total cost of MST: {total_cost}")
+
+#Time = O(E log E) Space = O(V)
