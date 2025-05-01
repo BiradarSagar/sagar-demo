@@ -46,3 +46,5 @@ for u, v, weight in mst:
     print(f"{u} -- {v} == {weight}")
 
 print(f"Total cost of MST: {total_cost}")
+
+#Time = O(Elog(v)) Space=O(V+E) 
