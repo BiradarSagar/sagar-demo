@@ -47,3 +47,6 @@ g.dfs_recursive(0)
 
 print("\nBreadth First Search (BFS) starting from vertex 0:")
 g.bfs(0)
+
+#DFS Time=O(v) Space=O(v)
+#BFS Time=O(V+ E) Space=O(v)
