@@ -43,6 +43,7 @@ for _ in range(edges):
 source = input("Enter source vertex: ")
 
 distances = dijkstra(graph, source)
+#Time = O(E * log(v))  Space=O(v)
 
 print("\nShortest distances from source:")
 for node in distances:
