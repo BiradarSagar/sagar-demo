@@ -74,3 +74,5 @@ path = astar_search(grid, start, end)
 
 print("Path found:" if path else "No path found.")
 print(path)
+#Time Complexity:O(E * log(v))
+#Space Complexity:O(v)
