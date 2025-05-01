@@ -46,3 +46,6 @@ distances = dijkstra(graph, source)
 print("\nShortest distances from source:")
 for node in distances:
     print(f"Distance to {node}: {distances[node]}")
+
+
+#Time:(O(V^2)) Space:(O(V))
